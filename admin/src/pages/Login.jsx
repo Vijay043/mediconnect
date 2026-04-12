@@ -12,6 +12,7 @@ const Login = () => {
   const [password, setPassword] = useState('')
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL
+  console.log(backendUrl);
 
   const { setDToken } = useContext(DoctorContext)
   const { setAToken } = useContext(AdminContext)

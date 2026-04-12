@@ -1,6 +1,6 @@
-# Appointy - Doctor Appointment Web App
+# MediConnect - Doctor Appointment Web App
 
-**Appinty** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), Appointy provides an efficient, user-friendly experience for both patients and healthcare providers.
+**MediConnect** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), MediConnect provides an efficient, user-friendly experience for both patients and healthcare providers.
 
 ## 🛠️ Tech Stack
 
@@ -48,7 +48,7 @@
 
 ## 📄 About Page
 
-- Provides information about **Appointy’s vision** and mission.
+- Provides information about **MediConnect's vision** and mission.
 - **Why Choose Us** section highlights:
   - **Efficiency**: Streamlined appointment process.
   - **Convenience**: Online booking and payment.
@@ -109,41 +109,11 @@
   - **Razorpay Integration**
 - Ensures a secure and smooth payment experience for users.
 
-## 🌐 Project Setup
-
-To set up and run this project locally:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/appointy.git
-   cd appointy
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   cd client
-   npm install
-   ```
-
-3. **Environment Variables**:
-   - Create a `.env` file in the root directory and add the following:
-     ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     STRIPE_API_KEY=your_stripe_api_key
-     RAZORPAY_API_KEY=your_razorpay_api_key
-     ```
-
-4. **Run the Application**:
-   ```bash
-   npm run dev
-   ```
 
 ## 📦 Folder Structure
 
 ```plaintext
-appointy/
+MediConnect/
 ├── client/          # Frontend (React.js)
 ├── server/          # Backend (Node.js, Express.js)
 ├── models/          # MongoDB Schemas
